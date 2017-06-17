@@ -22,9 +22,9 @@ ENDIF
 */
 
 
-#include "types.h"
-#include "stat.h"
-#include "user.h"
+#include "xv6/types.h"
+#include "xv6/stat.h"
+#include "xv6/user.h"
 
 // expression
 typedef enum {var_null = 0, var_int, var_string} var_type;
